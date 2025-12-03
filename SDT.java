@@ -11,7 +11,7 @@ public class SDT {
             table[i] = rand.nextInt(100);
         }
 
-        System.out.println("Disordered array :");
+        System.out.println("Disordered array CONFLICT:");
         System.out.println(Arrays.toString(table));
 
         Arrays.sort(table);
