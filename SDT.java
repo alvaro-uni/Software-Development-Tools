@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
@@ -7,12 +8,15 @@ public class Main {
         Random rand = new Random();
 
         for (int i = 0; i < table.length; i++) {
-            table[i] = rand.nextInt(100); 
+            table[i] = rand.nextInt(100);
         }
 
-        System.out.println("Random values array:");
-        for (int value : table) {
-            System.out.println(value);
-        }
+        System.out.println("Disordered array:");
+        System.out.println(Arrays.toString(table));
+
+        Arrays.sort(table);
+
+        System.out.println("Ordered array:");
+        System.out.println(Arrays.toString(table));
     }
 }
