@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class Main {
+public class SDT {
     public static void main(String[] args) {
 
         int[] table = new int[10];
